@@ -43,7 +43,7 @@ function Menu() {
                     <li key={i.food.id} className="flex justify-between gap-2"><span>{t(i.food.nama)} <span className="text-stone-500">· {num(i.porsi, 1)} {t(i.food.urt)} ({Math.round(i.g)} g)</span></span><span className="text-stone-500">{num(i.kcal)} {k}</span></li>
                   ))}
                 </ul>
-                <p className="mt-2 text-xs text-stone-500">P {Math.round(meal.p)} g · {en ? 'F' : 'L'} {Math.round(meal.f)} g · {en ? 'C' : 'K'} {Math.round(meal.c)} g</p>
+                <p className="mt-2 text-xs text-stone-500">Protein {Math.round(meal.p)} g · {t('Lemak', 'Fat')} {Math.round(meal.f)} g · {t('Karbo', 'Carbs')} {Math.round(meal.c)} g</p>
               </Card>
             ))}
           </>

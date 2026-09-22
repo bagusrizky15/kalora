@@ -82,6 +82,7 @@ function Hasil() {
           <p>3. Target = TDEE {r.target - r.tdee >= 0 ? '+' : '−'} {n(Math.abs(r.target - r.tdee))} {t('kkal', 'kcal')} = <b>{n(r.target)} {t('kkal', 'kcal')}</b></p>
           <p>4. {en ? `Protein ${s.protein} g/kg × ${s.berat} kg = ${m.p} g; fat ≥20% of calories = ${m.f} g; carbs make up the rest = ${m.c} g` : `Protein ${dec(s.protein, 1)} g/kg × ${s.berat} kg = ${m.p} g; lemak ≥20% kalori = ${m.f} g; sisanya karbo = ${m.c} g`}</p>
         </Card>
+        <Link to="/hitung" search={s} className="print:hidden inline-block rounded-lg border border-brand px-4 py-2 text-sm font-semibold text-brand hover:bg-brand hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand">{t('Hitung lagi dengan data lain', 'Recalculate with different details')}</Link>
         <Disclaimer />
       </Page>
     </>
