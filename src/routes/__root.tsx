@@ -9,10 +9,10 @@ export const Route = createRootRoute({
     meta: [
       { charSet: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { title: 'Kalora: kalkulator kalori, menu, dan latihan' },
+      { title: 'Kalora' },
       { name: 'description', content: 'Hitung BMR, TDEE, kalori, dan makro, lalu lihat contoh menu makanan Indonesia dan program latihan. Gratis, tanpa akun.' },
     ],
-    links: [{ rel: 'stylesheet', href: css }],
+    links: [{ rel: 'stylesheet', href: css }, { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
   }),
   component: Root,
 })
