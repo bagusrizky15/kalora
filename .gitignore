@@ -1,0 +1,22 @@
+node_modules
+dist
+.output
+
+PRD Kalora.md
+
+# AI tools
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+AGENTS.md
+.cursor/
+.cursorrules
+.windsurf/
+.windsurfrules
+.github/copilot-instructions.md
+.aider*
+.codex/
+.gemini/
+GEMINI.md
+.continue/
+.mcp.json
